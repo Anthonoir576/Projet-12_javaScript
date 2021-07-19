@@ -86,7 +86,7 @@ main {
     display: flex;
     flex-wrap: wrap;
 
-    & .country-item {
+    & .country-item { 
 
         border-radius: 25px;
         background: linear-gradient(90deg,#61DAFB 0%, rgb(10, 167, 211) 100%);

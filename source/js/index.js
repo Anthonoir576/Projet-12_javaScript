@@ -23,7 +23,7 @@ const fetchCountries = async() => {
 
 };
 
-// Mappage
+// Mappage 
 const showCountries = async() => {
 
     await fetchCountries();
