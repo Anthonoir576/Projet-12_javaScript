@@ -79,3 +79,80 @@ main {
     }
 
 }
+
+
+#results {
+
+    display: flex;
+    flex-wrap: wrap;
+
+    & .country-item {
+
+        border-radius: 25px;
+        background: linear-gradient(90deg,#61DAFB 0%, rgb(10, 167, 211) 100%);
+        box-shadow: 0 2px 5px rgb(0, 0, 0, 0.5);
+        display: flex;
+        align-items: center;
+        padding: 0.3rem;
+        width: 380px;
+        margin: .3rem auto;
+        color: #333;
+    
+    }
+
+    .country-flag {
+
+        width: 2.5rem;
+        height: 1.7rem;
+        margin-left: 0.5rem;
+        border-radius: 50px;
+        box-shadow: 1px 1px 3px #333;
+    
+    }
+    
+    .country-name {
+    
+        flex: 2;
+        margin: 0 5px;
+        text-align: center;
+    
+    }
+    
+    .country-info {
+    
+        border-left: 1px solid #333;
+        padding: 0 1rem;
+        flex: 1;
+        text-align: center;
+    
+    }
+    
+    .country-population {
+    
+        width: 100px;
+    
+    }
+    
+    h2 {
+    
+        font-size: 1.1rem;
+    
+    }
+    
+    h5 {
+    
+        font-size: .7rem;
+        color: rgb(17, 80, 97);
+    
+    }
+    
+    .country-population-text {
+    
+        text-transform: uppercase;
+    
+    }
+
+}
+
+
+

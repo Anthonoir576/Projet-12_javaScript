@@ -48,4 +48,51 @@ main .header::after {
   border: 1px dashed whitesmoke;
 }
 
+#results {
+  display: flex;
+  flex-wrap: wrap;
+}
+#results .country-item {
+  border-radius: 25px;
+  background: linear-gradient(90deg, #61DAFB 0%, #0aa7d3 100%);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  padding: 0.3rem;
+  width: 380px;
+  margin: 0.3rem auto;
+  color: #333;
+}
+#results .country-flag {
+  width: 2.5rem;
+  height: 1.7rem;
+  margin-left: 0.5rem;
+  border-radius: 50px;
+  box-shadow: 1px 1px 3px #333;
+}
+#results .country-name {
+  flex: 2;
+  margin: 0 5px;
+  text-align: center;
+}
+#results .country-info {
+  border-left: 1px solid #333;
+  padding: 0 1rem;
+  flex: 1;
+  text-align: center;
+}
+#results .country-population {
+  width: 100px;
+}
+#results h2 {
+  font-size: 1.1rem;
+}
+#results h5 {
+  font-size: 0.7rem;
+  color: #115061;
+}
+#results .country-population-text {
+  text-transform: uppercase;
+}
+
 /*# sourceMappingURL=style.css.map */
