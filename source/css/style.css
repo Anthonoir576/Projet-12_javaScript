@@ -7,7 +7,45 @@
 html,
 body {
   overflow-x: hidden;
-  background: whitesmoke;
+  font-family: "Lexend Mega", sans-serif;
+  background: #333333;
+  color: whitesmoke;
+  min-height: 100vh;
+}
+
+main .header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+main .header h1 {
+  font-size: 5vw;
+  margin: 3rem 0;
+  white-space: nowrap;
+  text-align: center;
+  width: 70vw;
+  border: 5px solid whitesmoke;
+  box-shadow: 0 0 10px 1px whitesmoke;
+  padding: 15px 30px;
+  border-radius: 10px;
+}
+main .header #search {
+  width: 50%;
+  height: 50px;
+  border: 5px solid white;
+  border-radius: 3px;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+main .header::after {
+  content: "";
+  margin-top: 2rem;
+  width: 80%;
+  height: 0px;
+  background: #333333;
+  border: 1px dashed whitesmoke;
 }
 
 /*# sourceMappingURL=style.css.map */

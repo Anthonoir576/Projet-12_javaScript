@@ -14,6 +14,68 @@ body {
 
     overflow-x: hidden;
 
-    background: whitesmoke;
+    font-family: 'Lexend Mega', sans-serif;
+
+    background: rgb(51, 51, 51);
+    color: whitesmoke;
+
+    min-height: 100vh;
+
+}
+
+main {
+
+    & .header {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        width: 100vw;
+        
+        & h1 {
+
+            font-size: 5vw;
+            margin: 3rem 0;
+
+            white-space: nowrap;
+
+            text-align: center;
+            width: 70vw;
+
+            border: 5px solid whitesmoke;
+            box-shadow: 0 0 10px 1px whitesmoke;
+            padding: 15px 30px;
+            border-radius: 10px;
+
+        }
+
+        & #search {
+
+            width: 50%;
+            height: 50px;
+            border: 5px solid white;
+            border-radius: 3px;
+            margin-bottom: 3rem;
+
+            text-align: center;
+            
+        }
+
+        &::after {
+
+            content: '';    
+            
+            margin-top: 2rem;
+            width: 80%;
+            height: 0px;
+            
+            background: rgb(51, 51, 51);
+            border: 1px dashed whitesmoke;
+
+        }
+
+    }
 
 }
